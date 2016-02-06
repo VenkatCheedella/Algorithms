@@ -37,6 +37,8 @@ public class LongestIncreasingSubSequence {
 		}			
 	}
 	
+	// Takes the input array_sequence of integers.  Find the longest
+	// incresing subsequence
 	public static int lenOfIncreasingSubSequence(int[] input){		
 		int[] resultSequence = new int[input.length];
 		Arrays.fill(resultSequence, -1);		
